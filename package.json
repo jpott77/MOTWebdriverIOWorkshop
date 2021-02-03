@@ -1,0 +1,28 @@
+{
+  "name": "motwebdriverioworkshop",
+  "version": "1.0.0",
+  "description": "This is a 3 day Workshop hosted by MOT, instructed by Julia Pottinger",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio"
+  },
+  "keywords": [
+    "webdriverio"
+  ],
+  "author": "Julia Pottinger",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-webdriverio": "^1.0.0",
+    "webdriverio": "^6.12.1"
+  },
+  "devDependencies": {
+    "@applitools/eyes-webdriverio": "^5.29.5",
+    "@wdio/cli": "^6.12.1",
+    "@wdio/local-runner": "^6.12.1",
+    "@wdio/mocha-framework": "^6.11.0",
+    "@wdio/selenium-standalone-service": "^6.12.1",
+    "@wdio/spec-reporter": "^6.11.0",
+    "@wdio/sync": "^6.11.0"
+  }
+}
